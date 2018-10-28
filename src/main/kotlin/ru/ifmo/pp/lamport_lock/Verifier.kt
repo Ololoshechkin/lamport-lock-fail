@@ -53,6 +53,10 @@ fun lock(id: Int) {
     }
 }
 
+// (0, 0, ?), (0, 1, ?)
+// (0, 0, 0), (0, 1, 0)
+// (1, 0, 0), ()
+
 private val execution: MutableList<Action> = synchronizedList(parseExecution("execution"));
 
 fun waitForRead(id: Int, loc: String) {
