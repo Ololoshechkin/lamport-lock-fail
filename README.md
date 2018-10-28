@@ -1,6 +1,6 @@
 # Ошибочный алгоритм Лампорта
 
-[![Build Status](https://travis-ci.com/ITMO-MPP-2018/lamport-lock-fail-<your_GitHub_account>.svg?token=B2yLGFz6qwxKVjbLm9Ak&branch=master)](https://travis-ci.com/ITMO-MPP-2018/lamport-lock-fail-<your_GitHub_account>)
+[![Build Status](https://travis-ci.com/ITMO-MPP-2018/lamport-lock-fail-Ololoshechkin.svg?token=B2yLGFz6qwxKVjbLm9Ak&branch=master)](https://travis-ci.com/ITMO-MPP-2018/lamport-lock-fail-Ololoshechkin)
 
 В рамках данного задания вы проанализируете некорректную попытку реализации алгоритма Лампорта для взаимного исключения.
 
