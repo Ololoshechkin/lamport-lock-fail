@@ -19,7 +19,7 @@ def lock:
   7: for k in range(N): if k != id:
   8:     while true: // пропускаем поток k до тех пока, пока номер его билета меньше
   9:         other = label[k] // читаем номер билета потока k
-  10:         if other == -1 continue@6
+  10:         if other == -1 continue@6 // эмулируем "while choosing => wait"
   11:         if other == 0 or (other, k) > (my, id): break@6 // если номер его билета меньше, перестаем ждать  
 
 def unlock:
